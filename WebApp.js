@@ -11,19 +11,24 @@ var con = mysql.createConnection({
 });
 
 
-
 con.connect(function(err) {
     if (err) throw err;
     console.log("Connected!");
 });
 
-var entry1 = "INSERT INTO Example (firstName, lastName) VALUES ('Hello', 'World')";
+var deleterows = "DELETE FROM Example"
+con.query(deleterows, function (err, rows) {
+    if (err) throw err;
+    console.log("Rows Deleted");
+});
+
+var entry1 = "INSERT INTO Example (firstName, lastName) VALUES ('Software', 'Dev')";
 con.query(entry1, function (err, rows) {
     if (err) throw err;
     console.log("1 record inserted");
 });
 
-var entry2 = "INSERT INTO Example (firstName, lastName) VALUES ('Marvel', 'DC')";
+var entry2 = "INSERT INTO Example (firstName, lastName) VALUES ('Tony', 'Stark')";
 con.query(entry2, function (err, rows) {
     if (err) throw err;
     console.log("1 record inserted");
