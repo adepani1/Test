@@ -22,19 +22,19 @@ con.query(deleterows, function (err, rows) {
     console.log("Rows Deleted");
 });
 
-var entry1 = "INSERT INTO Example (firstName, lastName) VALUES ('Software', 'Dev')";
+var entry1 = "INSERT INTO Example (firstName, lastName) VALUES ('Aman', 'Depani')";
 con.query(entry1, function (err, rows) {
     if (err) throw err;
     console.log("1 record inserted");
 });
 
-var entry2 = "INSERT INTO Example (firstName, lastName) VALUES ('Tony', 'Stark')";
+var entry2 = "INSERT INTO Example (firstName, lastName) VALUES ('Marvel', 'Isthebest')";
 con.query(entry2, function (err, rows) {
     if (err) throw err;
     console.log("1 record inserted");
 });
 
-var sql = "UPDATE Example SET firstName = 'Iron', lastName = 'Man' WHERE firstName = 'Tony'";
+var sql = "UPDATE Example SET firstName = 'Iron', lastName = 'Man' WHERE firstName = 'Marvel'";
 con.query(sql, function (err, result) {
     if (err) throw err;
     console.log("1 record updated");
