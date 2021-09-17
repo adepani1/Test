@@ -1,14 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b5e0235d-26be-499c-9624-880937f471e6" name="Default Changelist" comment="Trial">
+    <list default="true" id="b5e0235d-26be-499c-9624-880937f471e6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database_connection.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -21,8 +29,24 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="WebApp.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/WebApp.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.WebApp.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -32,7 +56,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1631909908120</updated>
-      <workItem from="1631909909146" duration="691000" />
+      <workItem from="1631909909146" duration="2735000" />
     </task>
     <task id="LOCAL-00001" summary="Trial">
       <created>1631910389886</created>
@@ -41,7 +65,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631910389886</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Trial">
+      <created>1631910871165</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1631910871165</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -52,18 +83,34 @@
     <option name="LAST_COMMIT_MESSAGE" value="Trial" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="304" y="44" key="CommitChangelistDialog2" timestamp="1631910828626">
+    <state x="304" y="44" key="CommitChangelistDialog2" timestamp="1631910870989">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state x="304" y="44" key="CommitChangelistDialog2/0.25.1440.875@0.25.1440.875" timestamp="1631910828626" />
+    <state x="304" y="44" key="CommitChangelistDialog2/0.25.1440.875@0.25.1440.875" timestamp="1631910870989" />
+    <state width="709" height="228" key="GridCell.Tab.0.bottom" timestamp="1631914895133">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="709" height="228" key="GridCell.Tab.0.bottom/0.25.1440.875@0.25.1440.875" timestamp="1631914895133" />
+    <state width="709" height="228" key="GridCell.Tab.0.center" timestamp="1631914895132">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="709" height="228" key="GridCell.Tab.0.center/0.25.1440.875@0.25.1440.875" timestamp="1631914895132" />
+    <state width="709" height="228" key="GridCell.Tab.0.left" timestamp="1631914895132">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="709" height="228" key="GridCell.Tab.0.left/0.25.1440.875@0.25.1440.875" timestamp="1631914895132" />
+    <state width="709" height="228" key="GridCell.Tab.0.right" timestamp="1631914895133">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="709" height="228" key="GridCell.Tab.0.right/0.25.1440.875@0.25.1440.875" timestamp="1631914895133" />
     <state x="229" y="98" key="SettingsEditor" timestamp="1631909998975">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="229" y="98" key="SettingsEditor/0.25.1440.875@0.25.1440.875" timestamp="1631909998975" />
-    <state x="320" y="199" key="Vcs.Push.Dialog.v2" timestamp="1631910397810">
+    <state x="320" y="199" key="Vcs.Push.Dialog.v2" timestamp="1631910884490">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state x="320" y="199" key="Vcs.Push.Dialog.v2/0.25.1440.875@0.25.1440.875" timestamp="1631910397810" />
+    <state x="320" y="199" key="Vcs.Push.Dialog.v2/0.25.1440.875@0.25.1440.875" timestamp="1631910884490" />
     <state x="520" y="200" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1631910330149">
       <screen x="0" y="25" width="1440" height="875" />
     </state>

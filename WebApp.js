@@ -15,15 +15,33 @@ var con = mysql.createConnection({
 con.connect(function(err) {
     if (err) throw err;
     console.log("Connected!");
-    con.query('SELECT * FROM Example', (err, rows) => {
-        if(err) throw err;
-            rows.forEach((row) => {
+});
+
+var entry1 = "INSERT INTO Example (firstName, lastName) VALUES ('Hello', 'World')";
+con.query(entry1, function (err, rows) {
+    if (err) throw err;
+    console.log("1 record inserted");
+});
+
+var entry2 = "INSERT INTO Example (firstName, lastName) VALUES ('Marvel', 'DC')";
+con.query(entry2, function (err, rows) {
+    if (err) throw err;
+    console.log("1 record inserted");
+});
+
+var sql = "UPDATE Example SET firstName = 'Iron', lastName = 'Man' WHERE firstName = 'Tony'";
+con.query(sql, function (err, result) {
+    if (err) throw err;
+    console.log("1 record updated");
+});
+
+con.query('SELECT * FROM Example', (err, rows) => {
+    if(err) throw err;
+        rows.forEach((row) => {
             printRow = (`First Name: ${row.firstName}  Last Name: ${row.lastName}`)
             table.push(printRow)
-
         })
     })
-});
 
 
 const server = http.createServer(function (req, res) {
